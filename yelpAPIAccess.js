@@ -42,3 +42,7 @@ function CallWebAPI(String restaurantName) {
         }
     }
 }
+
+const input = prompt("Input name of restaurant for Yelp search.");
+
+CallWebAPI(input);
